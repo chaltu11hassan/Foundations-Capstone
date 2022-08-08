@@ -57,8 +57,9 @@ app.use((req,res) =>{
     res.redirect('/home')
 })
 
+const port = process.env.SERVER_PORT || 4000
+app.listen(port, `server running on ${port}`);
 
-app.listen(4000, () => console.log("Server running on 4000"));
 
 
 
