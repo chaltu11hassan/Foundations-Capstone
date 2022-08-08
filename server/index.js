@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require("express");
 const cors = require("cors");
 const path = require('path')
@@ -26,10 +28,6 @@ app.get('/future-destination',(req, res)=>{
 app.get('/resources',(req, res)=>{
     res.sendFile(path.join(__dirname, '../client/resources.html'))
 })
-
-
-
-
 
 
 
