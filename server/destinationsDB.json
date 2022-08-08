@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Turkey",
+        "detail": "I visited Turkey for 10 days and it was beautiful! The Ottoman Empire really knew what they were doing when they built the country. The architecture is truly captivating. It was beautiful to see grand mosques that captured Islamic art. I traveled to Cappadocia and went on the infamous hot air balloon. The view was amazing, we got to watch the sunrise from above and it was really cool.",
+        "date": "09-01-2021",
+        "imageURL":"https://media.tacdn.com/media/attractions-splice-spp-674x446/0a/9e/01/8d.jpg"
+        
+    },
+
+    {
+        "id": 2,
+        "title": "Guatemala",
+        "detail": "Guatemala was truly breath taking. I will never forget the adventures of hiking Volcan Acantenango; a treacherous 5 hours up a volcano! We camped up there for a night and had the opportunity to witness nearby Volcan Fuego erupt. The next day, we woke up at 4AM to hike up to the peak to view what was a marvelous sunrise. Once I got home from this trip, I was sore for weeks. All the pain and blisters were truly worth it for such an unforgettable experience.",
+        "date": "02-11-2021",
+        "imageURL":"https://quebuenlugar.com/wp-content/uploads/2022/01/AcatenangoprincipalQBL-1D.jpg"
+    
+    },
+
+    {
+        "id": 3,
+        "title": "Portugal",
+        "detail": "The most memorable thing about this destination was the Pastel de Nata; a delicious pastry found all around the country. I couldnt get enough!",
+        "date": "07-13-2018",
+        "imageURL":"https://global-uploads.webflow.com/5d98599ba491dd290226f10f/62045f4e34356f1b7c854771_Where%20To%20Go%20To%20In%20Portugal-%20Sintra.jpg"
+    },
+
+    {
+
+        "id": 4,
+        "title": "Jamaica",
+        "detail": "visiting Jamaica is a fascinating learning experience. The island of rhythm and sway where I had the best jerk chicken. The greenery was so refreshing, the beaches were so clean and clear. I did not want to leave",
+        "date": "07-13-2018",
+        "imageURL":"https://t3.ftcdn.net/jpg/02/00/27/86/360_F_200278678_Lm11tAPDF6Wb5X2887AHSMXDN6hrGqlS.jpg"
+        
+    }
+
+]

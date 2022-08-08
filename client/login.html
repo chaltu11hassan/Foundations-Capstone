@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+</head>
+
+<header class="navs-head">
+    
+    <nav>
+          <ol>
+              <li class="crumb"><a href="/home">Travel Journal Home</a></li>
+  
+              <li class="crumb"><a href="/future-destination">Future Destinations to Visit</a></li>
+  
+              <li class="crumb"><a href="/resources">Resources</a></li>
+  
+              <li class="crumb" id="log-out"><a href="">Log Out</a></li>
+  
+             <section id="search-box">
+  
+                <input id="searchbox-input" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-autocomplete="list" aria-controls="site_search_listbox" maxlength="70" data-at="search_input" value="" placeholder="Search" id="searchbox-input" name="keyword" class="search">
+  
+             </section>
+  
+          </ol>
+      </nav>
+  </header>
+
+<body class="body" id="login-body">
+
+    <!-- <script>window.localStorage.clear();</script> -->
+   
+    <main class="main-all" id="index-main">
+        
+        <h1>Welcome to Your Travel Journal!</h1>
+        <h2>Sign in or create an account.</h2>
+
+        <section id="log-forms">
+            <form class="form-style" id="login-form">
+                <label>Login</label>
+                <input class="login-input base" id="log-username" placeholder="Username" type="text"/>
+                <input class="login-input base" id="log-password" placeholder="Password" type="password"/>
+                <button class="submit" id="login-submit" type="submit">Sign In</button>
+            </form>
+            <form class="form-style" id="registration-form">
+                <label>Register</label>
+                <input class="reg-input base" id="reg-username" placeholder="Username" type="text"/>
+                <input class="reg-input base" id="reg-email" placeholder="Email" type="email"/>
+                <input class="reg-input base" id="reg-password" placeholder="Password" type="password"/>
+                <button class="submit" id="reg-submit" type="submit">Sign Up</button>
+
+                <h4 id="register-h4"></h4>
+            
+            </form>
+        </section>
+
+    </main>
+    
+</body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./login.js"></script>
+
+</html>

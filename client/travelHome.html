@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+
+  <header class="navs-head">
+    
+    <nav>
+          <ol>
+              <li class="crumb"><a href="/home">Travel Journal Home</a></li>
+  
+              <li class="crumb"><a href="/future-destination">Future Destinations to Visit</a></li>
+  
+              <li class="crumb"><a href="/resources">Resources</a></li>
+  
+              <li class="crumb" id="log-out"><a href="">Log Out</a></li>
+  
+             <section id="search-box">
+  
+                <input id="searchbox-input" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-autocomplete="list" aria-controls="site_search_listbox" maxlength="70" data-at="search_input" value="" placeholder="Search" id="searchbox-input" name="keyword" class="search">
+  
+             </section>
+  
+          </ol>
+      </nav>
+  </header>
+
+
+
+  <br>
+ 
+<body class="body" id="home">
+  
+<br>
+<br>
+
+<main class="main-all">
+
+    <form id="destinations-form">
+
+      <h4>Welcome To Your Travel Journal!</h4>
+     
+      <br>
+
+      Add an entry in your Travel Journal:
+			<input type="text" id="title" placeholder="Enter Destination">
+
+      <br>
+
+      Add destination details here:
+      <input type="text" id="detail" placeholder="Destination Details">
+
+      <br>
+    
+      Upload an image:
+      <input type="text" name="" id="imageURL" placeholder="add image URL here">
+
+      <br>
+
+      
+
+      Add Trip Date:
+      <input type="date" name="" id="date">
+
+			<br>
+      
+			<input type="submit" value="Submit" id="submit-destination">
+
+        <br>
+
+		</form>
+
+
+    <div class="boxed">
+      
+      <section id="destinations-container"></section>
+
+    </div>
+
+</main>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+
+    <footer></footer>
+
+  </body>
+  
+</html>
