@@ -9,13 +9,11 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-
 app.use(express.static(path.join(__dirname, '../client')))
 
 app.get('/login',(req, res)=>{
     res.sendFile(path.join(__dirname, '../client/login.html'))
 })
-
 
 app.get('/home',(req, res)=>{
     res.sendFile(path.join(__dirname, '../client/travelHome.html'))
@@ -28,8 +26,6 @@ app.get('/future-destination',(req, res)=>{
 app.get('/resources',(req, res)=>{
     res.sendFile(path.join(__dirname, '../client/resources.html'))
 })
-
-
 
 const {getDestinations,createDestination,updateDestination, deleteDestination} = require('./controller');
 
@@ -49,14 +45,12 @@ app.delete('/api/countries/:id', deleteCountry);
 app.post('/api/login', login)
 app.post('/api/register', register)
 
-
-
 app.use((req,res) =>{
     res.redirect('/home')
 })
 
 const port = process.env.SERVER_PORT || 4000
-app.listen(port, `server running on ${port}`);
+app.listen(port, ()=> console.log(`server running on ${port}`) );
 
 
 
