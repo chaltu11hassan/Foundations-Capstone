@@ -434,8 +434,8 @@ form label {
     border-radius: 5px;
 }
 
-#register-h4{
-    margin: 10px;
+#register-h4, #login-h4{
+    margin: 5px;
 }
 
 #travel-journal{

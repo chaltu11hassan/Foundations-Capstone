@@ -19,7 +19,7 @@ function login(e){
         
         location.href = '/home'
     }).catch((err) =>{
-        let message = document.querySelector('#register-h4');
+        let message = document.querySelector('#login-h4');
         message.textContent = err.response.data;
     })
 }
