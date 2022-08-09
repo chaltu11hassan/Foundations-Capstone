@@ -10,10 +10,10 @@ function login(e){
     let loggingIn = {
         username: username.value,
         password: password.value
+
     }
 
     axios.post('/api/login', loggingIn).then(res => {
-        // Insert local storage code below
         console.log(res.data)
        localStorage.setItem('user', JSON.stringify(res.data))
         
@@ -21,7 +21,14 @@ function login(e){
     }).catch((err) =>{
         let message = document.querySelector('#login-h4');
         message.textContent = err.response.data;
+
+         //////////login-before-reg-restric/////
+    //  if(user === null){
+    //     alert('User not found, please register!')
+    // }
+    
     })
+
 }
 
 function register(e){

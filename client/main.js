@@ -69,7 +69,6 @@ function submitDestination(event) {
             <button onclick="deleteDestination(${destination.id})">delete</button>`
            
             destinationsContainer.appendChild(destinationCard);
-            
      }
 
     function displayDestinations(arr) {
@@ -79,7 +78,6 @@ function submitDestination(event) {
         }
     }
     
-
     destinationForm?.addEventListener("submit", submitDestination)
     
     destinationsContainer && getAllDestinations();
@@ -111,10 +109,6 @@ function submitCountry(event) {
 function displayCountries(countries){
     wishlistContainer.innerHTML = ''
     countries.forEach((country) => {
-        // let countryElement = document.createElement('p')
-        // countryElement.textContent = country.title;
-        // wishlistContainer.appendChild(countryElement);
-
     let countryCard = document.createElement('div')
     countryCard.classList.add('country-card')
 
