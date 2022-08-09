@@ -18,6 +18,9 @@ function login(e){
        localStorage.setItem('user', JSON.stringify(res.data))
         
         location.href = '/home'
+    }).catch((err) =>{
+        let message = document.querySelector('#register-h4');
+        message.textContent = err.response.data;
     })
 }
 

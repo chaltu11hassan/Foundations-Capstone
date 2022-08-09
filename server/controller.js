@@ -79,7 +79,10 @@ module.exports = {
                     delete returned.password;
 
                     res.status(200).send(returned);
+                } else{
+                    return res.status(401).send('The username or password entered is incorrect!')
                 }
+
             }
         }
     },
@@ -88,7 +91,7 @@ module.exports = {
         console.log('hit')
         const {username, email, password} = req.body;
         if(!username || !email || !password){
-            return res.status(400).send('The username or password entered is incorrect!')
+            return res.status(400).send('The information entered is incorrect!')
         } else {
             const salt = bcryptjs.genSaltSync(5); //creates a key that will encrypt password
             const hashed = bcryptjs.hashSync(password, salt); //salt is the key
