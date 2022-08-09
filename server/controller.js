@@ -5,7 +5,7 @@ let destinations = require('./destinationsDB.json');
 let destinationGlobalID = 5;
 
 let countries = require('./countriesDB.json');
-let countryGlobalID = 2
+let countryGlobalID = 4
 
 let users = require('./users.json');
 let usersGlobalID = 2;

@@ -1,0 +1,1 @@
+The MVP's for my project would be a login page where users can access account, a home page where users can add journal entries and save their information, and a future destinations page where users can add countries to their wish list. Anything added by the user can be deleted from their account. 
