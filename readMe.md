@@ -2,7 +2,7 @@
 
 <h1> Welcome to my Foundations Capstone: Travel Journal</h1>
 
-<p>Add jounal entries of places you have visited with the date and images you've captured.</p>
+<p>Add jounal entries of places you have visited with the dates of the trip and images you've captured.</p>
 
 ## Install
 
@@ -28,4 +28,4 @@ npm run test
 
 
 ## tech stack:
-HTML, CSS, Javascript, Node, Express, Cors, axios.
+HTML, CSS, Javascript, Node, Express, Cors, Axios.
