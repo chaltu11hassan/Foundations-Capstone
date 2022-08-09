@@ -49,9 +49,6 @@ app.use((req,res) =>{
     res.redirect('/home')
 })
 
-// const port = process.env.SERVER_PORT || 4000
-
-// app.listen(port, ()=> console.log(`server running on ${port}`));
 
 const port = process.env.PORT || 4000
 
