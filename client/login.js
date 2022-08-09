@@ -22,11 +22,6 @@ function login(e){
         let message = document.querySelector('#login-h4');
         message.textContent = err.response.data;
 
-         //////////login-before-reg-restric/////
-    //  if(user === null){
-    //     alert('User not found, please register!')
-    // }
-    
     })
 
 }

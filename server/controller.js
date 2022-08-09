@@ -80,9 +80,11 @@ module.exports = {
 
                     res.status(200).send(returned);
                 } else{
-                    return res.status(401).send('The username or password entered is incorrect!')
+                    return res.status(400).send('The username or password entered is incorrect!')
                 }
 
+            }else{
+                return res.status(400).send('User not found, please register!')
             }
         }
     },
