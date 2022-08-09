@@ -297,6 +297,7 @@ select {
     height: 60px;
     margin: 5px;
     padding:1px;
+    text-align: center;
     justify-content: center;
 }
 
