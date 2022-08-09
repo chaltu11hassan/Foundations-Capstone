@@ -45,9 +45,12 @@ app.delete('/api/countries/:id', deleteCountry);
 app.post('/api/login', login)
 app.post('/api/register', register)
 
+
+
 app.use((req,res) =>{
     res.redirect('/home')
 })
+
 
 const port = process.env.PORT || 4000
 

@@ -20,8 +20,8 @@ function login(e){
         location.href = '/home'
     }).catch((err) =>{
         let message = document.querySelector('#login-h4');
+        console.log(err.response.data);
         message.textContent = err.response.data;
-
     })
 
 }
